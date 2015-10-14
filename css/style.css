@@ -2,7 +2,7 @@
 html { 
   margin:0;
   padding:0;
-  background: url(../media/bg.jpg) no-repeat center fixed; 
+  background: url(../media/bg.png) no-repeat center fixed; 
   -webkit-background-size: cover;
   background-size: cover;
   font-size: 62.5%;
