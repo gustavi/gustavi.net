@@ -1,45 +1,26 @@
 /* Based on http://din.osau.re/ */
-html { 
-  margin:0;
-  padding:0;
-  background: url(../media/bg.png) no-repeat center fixed; 
-  -webkit-background-size: cover;
-  background-size: cover;
-  font-size: 62.5%;
-  font-family: "Century Gothic",arial,helvetica,sans-serif;
+
+html {
+    margin: 0;
+    padding: 0;
+    background: url(../media/bg.png) no-repeat center fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    font-size: 62.5%;
+    font-family: "Century Gothic", arial, helvetica, sans-serif;
 }
 body {
-  background: transparent;
-  max-width:800px;
-  margin: auto;
-}
-header {
-  background: #000;
-  color: #FFF;
-  max-width: 280px;
-  margin: 2em auto;
-  padding: 1.5em;
-  line-height: 1.5;
-  text-align: center;
-}
-header p {
-  font-size: 2.3em;
-  font-weight: bolder;
+    background: transparent;
+    max-width: 800px;
+    margin: auto;
 }
 a {
-  color: white;
-  font-weight: bolder;
-  text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
 }
 a:hover {
-  color: black;
-}
-.links a {
-  padding: 0.5em;
-}
-.links a:hover{
-  background: white;
-  transition: background 2s;
+    color: black;
 }
 p {
     margin: 0px 0px 1em;
@@ -48,31 +29,58 @@ p {
 p:last-child {
     margin-bottom: 0px;
 }
-.links
-{
-  text-align: center;
-  background: rgba(55, 55, 55, 0.5);
-  color: white;
-  line-height: 3.5em;
-  margin: 2em auto;
-  padding: 0.8em;
-  max-width: 480px;
+
+/* Header */
+
+header {
+    background: #000;
+    color: #FFF;
+    max-width: 280px;
+    margin: 2em auto;
+    padding: 1.5em;
+    line-height: 1.5;
+    text-align: center;
+}
+header p {
+    font-size: 2.3em;
+    font-weight: bolder;
 }
 
-.link {
-  display:inline-block;
-  margin-right: 1em;
+/* Links */
+
+.links a {
+    padding: 0.5em;
 }
-footer{
-	width:100%;
-	min-height:42px;
-	position:absolute;
-	bottom:0;
-	left:0;
-  text-align: center;
-  background: rgba(55, 55, 55, 0.5);
-  color: white;
+.links a:hover {
+    background: white;
+    transition: background 2s;
+}
+.links {
+    text-align: center;
+    background: rgba(55, 55, 55, 0.5);
+    color: white;
+    line-height: 3.5em;
+    margin: 2em auto;
+    padding: 0.8em;
+    max-width: 480px;
+}
+.link {
+    display: inline-block;
+    margin-right: 1em;
+}
+
+/* Footer */
+
+footer {
+    width: 100%;
+    min-height: 42px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    background: rgba(55, 55, 55, 0.5);
+    color: white;
 }
 footer p {
-  padding: 12px 0;
+    padding: 12px 0;
 }
