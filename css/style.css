@@ -87,7 +87,6 @@ footer {
     text-align: center;
     background: #8D8259;
     color: white;
-    border-top: 15px solid #e4cf7c;
 }
 footer p {
     padding: 12px 0;
@@ -98,5 +97,6 @@ footer p {
 @media screen and (max-width: 960px) {
     html {
         background: #e4cf7c;
+        border-top: 15px solid #e4cf7c;
     }
 }
