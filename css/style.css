@@ -30,6 +30,14 @@ p:last-child {
     margin-bottom: 0px;
 }
 
+/* Body */
+
+.box {
+    background: rgba(100, 100, 100, 0.3);
+    padding: 20px;
+    margin: 42px 0 100px 0;
+}
+
 /* Header */
 
 header {
@@ -73,13 +81,22 @@ header h1 {
 footer {
     width: 100%;
     min-height: 42px;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0;
     text-align: center;
-    background: rgba(55, 55, 55, 0.5);
+    background: #8D8259;
     color: white;
+    border-top: 15px solid #e4cf7c;
 }
 footer p {
     padding: 12px 0;
+}
+
+/* Small screen */
+
+@media screen and (max-width: 960px) {
+    html {
+        background: #e4cf7c;
+    }
 }
